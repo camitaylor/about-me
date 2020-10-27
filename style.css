@@ -33,4 +33,9 @@ h1 {
 }
 .Hawaiimoon {
     width: 200px;
+    float: right;
+    vertical-align: top;
+}
+.purple {
+    color: #A64AC9;
 }
