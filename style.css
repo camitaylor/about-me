@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    font-family: 'Asap', sans-serif
+    font-family: 'Asap', sans-serif;
 }
 /* box model comment*/
 #container {
@@ -14,9 +14,11 @@ body {
 .left-col {
     float: left;
     color: #A64AC9;
+    width: 48%;
 }
 .right-col {
     float: right;
+   width: 48%;
 }
 .clearFix {
     clear: both;
@@ -28,12 +30,12 @@ h1 {
     color: #A64AC9;
     text-decoration: none;
     border: 3px solid #A64AC9;
+    border-radius:8px;
     padding: 10px;
     display: inline-block;
 }
-.Hawaiimoon {
+.hawaiiMoon {
     width: 200px;
-    float: right;
     vertical-align: top;
 }
 .purple {
