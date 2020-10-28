@@ -2,7 +2,7 @@ body {
     background-color: black;
     font-family: 'Asap', sans-serif;
 }
-/*The box model states every element is a box that includes content, padding, a border and a margin.  Content is the inner-most part of the box where text/images are. Padding is a transparent component that adds blank space around the content.  A margin is a transparent component that adds blank space around the outside of the border. A border, can be visible or transparent, separates the padding from the margin.*/
+/*The box model states every element is a box that includes content, padding, a border and a margin. Content is the inner-most part of the box where text/images are. Padding is a transparent component that adds blank space around the content.  A margin is a transparent component that adds blank space around the outside of the border. A border, can be visible or transparent, separates the padding from the margin.*/
 #container {
     background-color: white;
     color: black;
