@@ -1,19 +1,21 @@
 body {
     background-color: black;
-    font-family: 'Asap', sans-serif;
+    font-family: 'Philosopher', sans-serif;
 }
 /*The box model states every element is a box that includes content, padding, a border and a margin.  Content is the inner-most part of the box where text/images are. Padding is a transparent component that adds blank space around the content.  A margin is a transparent component that adds blank space around the outside of the border. A border, can be visible or transparent, separates the padding from the margin.*/
 #container {
-    background-color: white;
-    color: black;
+    background: linear-gradient(90deg, rgb(78, 78, 82), rgb(15, 15, 15));
+    background-color:  rgb(78, 78, 82);
+    color: rgb(212, 212, 236);
     width: 50%;
     margin: auto;
     margin-top: 20px;
     padding: 20px;
+    font-size: 20px;
 }
 .left-col {
     float: left;
-    color: #A64AC9;
+    color: rgb(109, 224, 253);
     width: 48%;
 }
 .right-col {
@@ -24,28 +26,30 @@ body {
     clear: both;
 }
 h1 {
-    color: #A64AC9;
+    color: rgb(109, 224, 253);
 }
 #gitHub {
-    color: #A64AC9;
+    color: rgb(109, 224, 253);
     text-decoration: none;
-    border: 3px solid #A64AC9;
+    border: 3px solid rgb(109, 224, 253);
     border-radius:8px;
     padding: 10px;
     display: inline-block;
     margin-top: 10px;
+    font-family: 'Lucida Sans';
 }
 .hawaiiMoon {
     width: 200px;
     vertical-align: top;
     float: right;
 }
-.purple {
-    color: #A64AC9;
+.blue {
+    color: rgb(109, 224, 253);
+    font-family: 'Lucida Sans';
 }
 h2 {
-    color: black;
+    color: rgb(212, 212, 236);
 }
 p {
-    color: black;
+    color: rgb(212, 212, 236);
 }
